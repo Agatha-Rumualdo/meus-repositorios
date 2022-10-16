@@ -111,6 +111,16 @@ main h2.especial {
     transition-duration: 1s;
 }
 
+main h2,h3 {
+    color: #400235;
+    font-family: var(--font-lobster);
+    font-weight: normal;
+    font-size: 1.8em;
+    background-image: linear-gradient(to right,var(--cor2), transparent);
+    text-indent: 8px;
+    transition-duration: 1s;
+}
+
 main p {
     margin: 15px 0px;
     text-align: justify;
@@ -118,3 +128,21 @@ main p {
     line-height: 25px;
 }
 
+anside {
+    color: #FF70E2;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.705);
+}
+
+anside > h2 {
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+anside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
